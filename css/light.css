@@ -33,9 +33,9 @@ div.popup {
   width: 50%;
   padding-top: 30px;
   padding-bottom: 50px;
-  background-color: #262023;
+  background-color: #666;
   border-radius: 7px;
-  box-shadow: 5px 5px 5px #262023;
+  box-shadow: 5px 5px 5px #999;
   text-align: center;
   position: absolute;
   top: 50%;
@@ -44,15 +44,12 @@ div.popup {
   transform: translate(-50%, -50%);
 }
 
-.urlinput, .steaminput, .mcinput, .mcminput, .ismoddedsel {
-  display: none;
-}
-
 #notification {
   width: 50%;
   padding: 10px 0 10px 0;
   margin-top: 30px;
   background-color: tomato;
+  color: white;
   border-radius: 7px;
 
   text-align: center;
@@ -88,6 +85,7 @@ div.popup {
 
 #history th {
   background: black;
+  color: white;
   height: 30px;
   padding: 0 20px 0 20px;
 }
