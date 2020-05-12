@@ -7,7 +7,7 @@
 
   <body>
     <?php include("header.php"); ?>
-    <center><h1>Regeln</h1></center>
+    <center><h1>{ Regeln }</h1></center>
     <div id="rules">
       <p></p>
     </div>

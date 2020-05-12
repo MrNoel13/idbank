@@ -7,8 +7,8 @@
 
   <body>
     <?php include("header.php"); ?>
-    <center><h1>IDBank</h1></center>
-    
+    <center><h1>{ IDBank }</h1></center>
+
 
   </body>
 </html>

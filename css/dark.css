@@ -62,7 +62,7 @@ div.popup {
 #button {
   background-color: transparent;
   padding: 5px;
-  border: 3px solid #332c2f;
+  border: 3px solid #4f4449;
   border-radius: 7px;
   color: #d8d2d5;
   font-size: 1em;
@@ -70,7 +70,7 @@ div.popup {
 }
 
 #button:hover {
-  background-color: #332c2f;
+  background-color: #4f4449;
   text-decoration: none;
 }
 
@@ -83,7 +83,7 @@ div.popup {
 }
 
 #history th {
-  background: #171a1c;
+  background: #0B090A;
   height: 30px;
   padding: 0 20px 0 20px;
 }

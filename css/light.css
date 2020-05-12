@@ -1,8 +1,8 @@
 body {
   margin: 0;
-  background: #eae9e8;
+  background: #f1eff0;
   font-family: sans-serif;
-  color: black;
+  color: #100e0f;
 }
 
 a {
@@ -17,7 +17,7 @@ a:hover {
 div.header {
   width: 100%;
   height: 60px;
-  background: #242322;
+  background: #252022;
   margin-bottom: 50px;
 }
 
@@ -33,7 +33,8 @@ div.popup {
   width: 50%;
   padding-top: 30px;
   padding-bottom: 50px;
-  background-color: #666;
+  background-color: #252022;
+  color: #eae9e8;
   border-radius: 7px;
   box-shadow: 5px 5px 5px #999;
   text-align: center;
@@ -63,7 +64,7 @@ div.popup {
 #button {
   background-color: transparent;
   padding: 5px;
-  border: 3px solid #ccc;
+  border: 3px solid #b2a5ab;
   border-radius: 7px;
   color: black;
   font-size: 1em;
@@ -71,7 +72,7 @@ div.popup {
 }
 
 #button:hover {
-  background-color: #ccc;
+  background-color: #b2a5ab;
   text-decoration: none;
 }
 
@@ -84,21 +85,21 @@ div.popup {
 }
 
 #history th {
-  background: black;
-  color: white;
+  background: #6f5f66;
+  color: #eae9e8;
   height: 30px;
   padding: 0 20px 0 20px;
 }
 
 #history tr {
-  background: #dadada;
+  background: #a99ba1;
   height: 30px;
 }
 
 #history tr:nth-child(even){
-  background: #ccc;
+  background: #a09097;
 }
 
 #history tr:hover {
-  background: #e8e8e8;
+  background: #b2a5ab;
 }

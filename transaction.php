@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <?php $title = "Regeln"; include("meta.php"); ?>
+    <?php $title = "Geld überweisen"; include("meta.php"); ?>
   </head>
 
   <body>
@@ -113,7 +113,7 @@
          <input name="target" type="text" minlength="3" maxlength="16" placeholder="Empfänger">
          <input name="amount" type="number" min="1" max="<?php echo $user['balance']; ?>" placeholder="Betrag">
          <input name="subject" type="text" maxlength="32" placeholder="Betreff">
-         <input id="button" name="submit" type="submit" value="Überweisen">
+         <input id="button" style="color: #eae9e8;" name="submit" type="submit" value="Überweisen">
        </form>
      </div>
 
