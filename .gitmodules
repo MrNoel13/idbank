@@ -1,0 +1,3 @@
+[submodule "securelogin"]
+	path = securelogin
+	url = https://github.com/MrNoel13/securelogin
