@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+
+	RewriteRule ^thread$ https://forum.kadcon.de/Conversation/200196-IDBank/
+  RewriteRule ^rules$ rules.php
+	RewriteRule ^account$ account.php
+	RewriteRule ^history$ history.php
+	RewriteRule ^transaction$ transaction.php
+  RewriteRule ^darkmode$ darkmode.php?a=true
+  RewriteRule ^lightmode$ darkmode.php?a=false
+
+</IfModule>
